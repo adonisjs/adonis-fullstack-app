@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "lint": "standard"
   },
   "keywords": [
     "adonisjs",
@@ -25,5 +26,11 @@
     "@adonisjs/lucid": "^4.0.12",
     "@adonisjs/session": "^1.0.10",
     "@adonisjs/shield": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": ["use", "make"]
   }
 }
