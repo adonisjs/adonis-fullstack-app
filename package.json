@@ -18,15 +18,15 @@
   "private": true,
   "dependencies": {
     "@adonisjs/ace": "^4.0.5",
-    "@adonisjs/auth": "^2.0.4",
+    "@adonisjs/auth": "^2.0.5",
     "@adonisjs/bodyparser": "^1.0.5",
     "@adonisjs/cors": "^1.0.1",
     "@adonisjs/fold": "^4.0.2",
-    "@adonisjs/framework": "^4.0.12",
-    "@adonisjs/ignitor": "^1.0.9",
-    "@adonisjs/lucid": "^4.0.14",
+    "@adonisjs/framework": "^4.0.14",
+    "@adonisjs/ignitor": "^1.0.10",
+    "@adonisjs/lucid": "^4.0.15",
     "@adonisjs/session": "^1.0.10",
-    "@adonisjs/shield": "^1.0.1"
+    "@adonisjs/shield": "^1.0.2"
   },
   "devDependencies": {
     "standard": "^10.0.3"
