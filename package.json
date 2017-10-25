@@ -26,8 +26,7 @@
     "@adonisjs/ignitor": "^1.0.12",
     "@adonisjs/lucid": "^4.0.20",
     "@adonisjs/session": "^1.0.16",
-    "@adonisjs/shield": "^1.0.3",
-    "got": "^7.1.0"
+    "@adonisjs/shield": "^1.0.3"
   },
   "devDependencies": {
     "standard": "^10.0.3"
