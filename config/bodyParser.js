@@ -134,5 +134,24 @@ module.exports = {
     |
     */
     processManually: []
+
+    /*
+    |--------------------------------------------------------------------------
+    | Temporary file name
+    |--------------------------------------------------------------------------
+    |
+    | Define a function, which should return a string to be used as the
+    | tmp file name.
+    |
+    | If not defined, Bodyparser will use `uuid` as the tmp file name.
+    |
+    | To be defined as. If you are defining the function, then do make sure
+    | to return a value from it.
+    |
+    | tmpFileName () {
+    |   return 'some-unique-value'
+    | }
+    |
+    */
   }
 }
