@@ -25,7 +25,7 @@
     "@adonisjs/framework": "^4.0.25",
     "@adonisjs/ignitor": "^1.0.13",
     "@adonisjs/lucid": "^4.0.21",
-    "@adonisjs/session": "^1.0.17",
+    "@adonisjs/session": "^1.0.18",
     "@adonisjs/shield": "^1.0.4"
   },
   "devDependencies": {},
