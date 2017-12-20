@@ -29,7 +29,7 @@ module.exports = {
   sqlite: {
     client: 'sqlite3',
     connection: {
-      filename: Helpers.databasePath('development.sqlite')
+      filename: Helpers.databasePath(`${Env.get('DB_DATABASE', 'adonis')}.sqlite`)
     },
     useNullAsDefault: true
   },
