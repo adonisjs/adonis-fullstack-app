@@ -1,7 +1,7 @@
 {
   "name": "adonis-fullstack-app",
-  "version": "4.0.0",
-  "adonis-version": "4.0.0",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
@@ -16,16 +16,16 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^4.0.7",
-    "@adonisjs/auth": "^2.0.10",
-    "@adonisjs/bodyparser": "^2.0.0",
-    "@adonisjs/cors": "^1.0.3",
+    "@adonisjs/ace": "^5.0.0",
+    "@adonisjs/auth": "^3.0.1",
+    "@adonisjs/bodyparser": "^2.0.2",
+    "@adonisjs/cors": "^1.0.4",
     "@adonisjs/fold": "^4.0.5",
-    "@adonisjs/framework": "^4.0.28",
-    "@adonisjs/ignitor": "^1.0.14",
-    "@adonisjs/lucid": "^4.0.24",
-    "@adonisjs/session": "^1.0.19",
-    "@adonisjs/shield": "^1.0.4"
+    "@adonisjs/framework": "^5.0.1",
+    "@adonisjs/ignitor": "^2.0.3",
+    "@adonisjs/lucid": "^5.0.1",
+    "@adonisjs/session": "^1.0.20",
+    "@adonisjs/shield": "^1.0.6"
   },
   "devDependencies": {},
   "autoload": {
