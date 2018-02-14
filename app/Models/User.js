@@ -13,7 +13,7 @@ class User extends Model {
      * Look at `app/Models/Hooks/User.js` file to
      * check the hashPassword method
      */
-    this.addHook('beforeCreate', 'User.hashPassword')
+    this.addHook('beforeSave', 'User.hashPassword')
   }
 
   /**
