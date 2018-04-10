@@ -1,5 +1,6 @@
 'use strict'
 
+const Hash = use('Hash')
 const Model = use('Model')
 
 class User extends Model {
@@ -9,11 +10,12 @@ class User extends Model {
     /**
      * A hook to hash the user password before saving
      * it to the database.
-     *
-     * Look at `app/Models/Hooks/User.js` file to
-     * check the hashPassword method
      */
-    this.addHook('beforeCreate', 'User.hashPassword')
+    this.addHook('beforeCreate', async (userInstance) => {
+      if (userInstance.password) {
+        userInstance.password = await Hash.make(userInstance.password)
+      }
+    })
   }
 
   /**
