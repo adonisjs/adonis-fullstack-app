@@ -44,7 +44,7 @@ const namedMiddleware = {
 | Server Middleware
 |--------------------------------------------------------------------------
 |
-| Server levl middleware are executed even when route for a given URL is
+| Server level middleware are executed even when route for a given URL is
 | not registered. Features like `static assets` and `cors` needs better
 | control over request lifecycle.
 |
