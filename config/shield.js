@@ -72,7 +72,7 @@ module.exports = {
   | X-XSS-Protection
   |--------------------------------------------------------------------------
   |
-  | X-XSS Protection saves from applications from XSS attacks. It is adopted
+  | X-XSS Protection saves applications from XSS attacks. It is adopted
   | by IE and later followed by some other browsers.
   |
   | Learn more at https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
