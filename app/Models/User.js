@@ -12,7 +12,7 @@ class User extends Model {
      * it to the database.
      */
     this.addHook('beforeCreate', async (userInstance) => {
-      if (userInstance.password) {
+      if (userInstance.dirty.password) {
         userInstance.password = await Hash.make(userInstance.password)
       }
     })
