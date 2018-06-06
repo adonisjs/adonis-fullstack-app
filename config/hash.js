@@ -12,7 +12,7 @@ module.exports = {
   | auth module too.
   |
   */
-  driver: Env.get('APP_KEY'),
+  driver: Env.get('HASH_DRIVER', 'bcrypt'),
 
   /*
   |--------------------------------------------------------------------------
