@@ -73,5 +73,21 @@ module.exports = {
     options: {
       secret: Env.get('APP_KEY')
     }
+  },
+
+  /*
+  |--------------------------------------------------------------------------
+  | Api
+  |--------------------------------------------------------------------------
+  |
+  | The Api scheme makes use of API personal tokens to authenticate a user.
+  |
+  */
+  api: {
+    serializer: 'lucid',
+    model: 'App/Models/User',
+    scheme: 'api',
+    uid: 'email',
+    password: 'password'
   }
 }
