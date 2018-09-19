@@ -38,8 +38,13 @@
     "@adonisjs/ignitor": "^2.0.6",
     "@adonisjs/lucid": "^5.0.4",
     "@adonisjs/session": "^1.0.25",
+<<<<<<< HEAD
     "@adonisjs/shield": "^1.0.6"
 >>>>>>> chore(package): add @adonisjs/generic-exceptions
+=======
+    "@adonisjs/shield": "^1.0.6",
+    "moment": "^2.22.2"
+>>>>>>> chore(package): add moment
   },
   "devDependencies": {},
   "autoload": {
