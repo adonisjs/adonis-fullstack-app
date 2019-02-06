@@ -10,3 +10,7 @@ tmp
 
 # The development sqlite file
 database/development.sqlite
+
+# VSCode & Webstorm history directories
+.history
+.idea
