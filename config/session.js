@@ -91,5 +91,11 @@ module.exports = {
   | the redis file. But you are free to define an object here too.
   |
   */
-  redis: 'self::redis.local'
+  redis: {
+    host: '127.0.0.1',
+    port: 6379,
+    password: null,
+    db: 0,
+    keyPrefix: ''
+  }
 }
