@@ -13,7 +13,6 @@
 
 /** @type {import('@adonisjs/lucid/src/Factory')} */
 // const Factory = use('Factory')
-// const Hash = use('Hash')
 
 // Factory.blueprint('App/Models/User', (faker) => {
 //   return {
